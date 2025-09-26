@@ -1,11 +1,8 @@
-# 🔔 Alerting & Notification Platform
-
-**Author:** Neha Dhruw  
-**Version:** 1.0.0  
+# Alerting & Notification Platform
 
 A lightweight, extensible alerting and notification system built with TypeScript, demonstrating clean OOP design patterns and modular architecture.
 
-## 🌟 Features
+## Features
 
 ### Admin Features
 - ✅ Create, update, and archive alerts
@@ -30,7 +27,7 @@ A lightweight, extensible alerting and notification system built with TypeScript
 - ✅ Role-based access control
 - ✅ RESTful API architecture
 
-## 🏗️ Architecture & Design Patterns
+## Architecture & Design Patterns
 
 ### Design Patterns Implemented
 
@@ -52,7 +49,7 @@ A lightweight, extensible alerting and notification system built with TypeScript
 - **Inheritance**: Base classes provide common functionality
 - **Polymorphism**: Multiple notification strategies with common interface
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -82,7 +79,7 @@ npm run setup
 ```
 This will install dependencies, seed the database, and start the server.
 
-## 📝 Test Credentials
+## Test Credentials
 
 ### Admin Account
 - **Email:** neha.admin@atomicads.com
@@ -94,7 +91,7 @@ This will install dependencies, seed the database, and start the server.
 - **Email:** jane.smith@atomicads.com
 - **Password:** user123
 
-## 📚 API Documentation
+## API Documentation
 
 ### Base URL
 ```
@@ -138,7 +135,7 @@ Authorization: Bearer <token>
 - `GET /api/analytics/alerts/top` - Top performing alerts
 - `GET /api/analytics/users/:userId` - User analytics
 
-## 📊 API Examples
+## API Examples
 
 ### Login
 ```bash
@@ -181,7 +178,7 @@ curl -X GET http://localhost:3000/api/analytics/system \
   -H "Authorization: Bearer <token>"
 ```
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 alerting-platform/
@@ -220,7 +217,7 @@ alerting-platform/
 └── README.md
 ```
 
-## 🔄 Reminder Logic
+## Reminder Logic
 
 The system implements a sophisticated reminder system:
 
@@ -234,7 +231,7 @@ The system implements a sophisticated reminder system:
 - Each user's notification preference is tracked individually
 - Snoozed alerts are excluded from reminders until the next day
 
-## 🔧 Available Scripts
+## Available Scripts
 
 ```bash
 npm run dev       # Start development server with hot reload
@@ -245,7 +242,7 @@ npm run clean     # Clean build artifacts and database
 npm run setup     # Complete setup (install, seed, start)
 ```
 
-## 📈 Analytics Dashboard
+## Analytics Dashboard
 
 The platform provides comprehensive analytics:
 
@@ -266,7 +263,7 @@ The platform provides comprehensive analytics:
 - Most read alerts
 - Highest delivery rates
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 The system is designed to be extensible for:
 
@@ -287,7 +284,7 @@ The system is designed to be extensible for:
    - Audit logging
    - Webhook integrations
 
-## 🧪 Testing
+## Testing
 
 ### Manual Testing Steps
 
@@ -313,7 +310,7 @@ The system is designed to be extensible for:
    - Verify snooze functionality
    - Check next-day reset
 
-## 🤝 Key Design Decisions
+## Key Design Decisions
 
 1. **SQLite Database**: Lightweight, file-based database perfect for MVP
 2. **JWT Authentication**: Stateless, secure authentication
@@ -322,16 +319,16 @@ The system is designed to be extensible for:
 5. **Repository Pattern**: Clean separation of data access logic
 6. **Service Layer**: Business logic isolated from controllers
 
-## 📞 Support & Contact
+## Support & Contact
 
 **Developer:** Neha Dhruw  
 **Submission Date:** Friday, 26/09/25
 
 ---
 
-## 🎯 Assignment Requirements Checklist
+## Assignment Requirements Checklist
 
-### ✅ Functional Requirements
+### Functional Requirements
 - [x] Admin can create unlimited alerts
 - [x] Alerts include title, message, severity, delivery type
 - [x] Configurable visibility (Org/Team/User)
@@ -341,7 +338,7 @@ The system is designed to be extensible for:
 - [x] Analytics dashboard
 - [x] In-App notifications (MVP)
 
-### ✅ Technical Requirements
+### Technical Requirements
 - [x] OOP design principles
 - [x] Strategy Pattern for channels
 - [x] Observer Pattern for subscriptions
@@ -351,14 +348,10 @@ The system is designed to be extensible for:
 - [x] RESTful APIs
 - [x] Seed data for testing
 
-### ✅ Deliverables
+### Deliverables
 - [x] Backend codebase
 - [x] Clear README with setup instructions
 - [x] Admin APIs (Create, Update, List)
 - [x] User APIs (Fetch, Mark, Snooze)
 - [x] Analytics endpoint
 - [x] Predefined test data
-
----
-
-**Thank you for reviewing this submission!** 🚀
