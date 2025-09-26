@@ -319,11 +319,6 @@ The system is designed to be extensible for:
 5. **Repository Pattern**: Clean separation of data access logic
 6. **Service Layer**: Business logic isolated from controllers
 
-## Support & Contact
-
-**Developer:** Neha Dhruw  
-**Submission Date:** Friday, 26/09/25
-
 ---
 ## SnapShot
 ![image 1](https://github.com/user-attachments/assets/c9b1a458-1aeb-48cb-adf2-8301455facc5)
@@ -336,33 +331,3 @@ The system is designed to be extensible for:
 
 
 
-
-## Assignment Requirements Checklist
-
-### Functional Requirements
-- [x] Admin can create unlimited alerts
-- [x] Alerts include title, message, severity, delivery type
-- [x] Configurable visibility (Org/Team/User)
-- [x] 2-hour reminder frequency
-- [x] Snooze functionality (resets daily)
-- [x] Read/unread status tracking
-- [x] Analytics dashboard
-- [x] In-App notifications (MVP)
-
-### Technical Requirements
-- [x] OOP design principles
-- [x] Strategy Pattern for channels
-- [x] Observer Pattern for subscriptions
-- [x] State Pattern for alert states
-- [x] Clean, modular code
-- [x] Extensible architecture
-- [x] RESTful APIs
-- [x] Seed data for testing
-
-### Deliverables
-- [x] Backend codebase
-- [x] Clear README with setup instructions
-- [x] Admin APIs (Create, Update, List)
-- [x] User APIs (Fetch, Mark, Snooze)
-- [x] Analytics endpoint
-- [x] Predefined test data
