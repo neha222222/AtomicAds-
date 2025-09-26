@@ -325,6 +325,17 @@ The system is designed to be extensible for:
 **Submission Date:** Friday, 26/09/25
 
 ---
+## SnapShot
+![image 1](https://github.com/user-attachments/assets/c9b1a458-1aeb-48cb-adf2-8301455facc5)
+
+
+![image2](https://github.com/user-attachments/assets/1c8ba10b-7ddd-4fa1-a800-080fbe6e6236)
+
+
+![image3](https://github.com/user-attachments/assets/712d7773-882c-44fb-87bc-2c004523f914)
+
+
+
 
 ## Assignment Requirements Checklist
 
